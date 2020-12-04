@@ -4,3 +4,7 @@ node_js:
 install:
   - npm install -g mocha
   - npm install chai
+deploy:
+  - provider: heroku
+  - api_key:
+     - secure: "fb939fda-296a-42ed-9fb8-c57fcb2d9727"
