@@ -1,0 +1,23 @@
+{
+  "name": "helloci",
+  "version": "1.0.0",
+  "description": "A simple demo for teaching CI/CD with GitHub, TravisCI and Heroku",
+  "main": "run.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -ui tdd test/",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djw213/HelloCI.git"
+  },
+  "author": "David Walker (david.walker@plymouth.ac.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djw213/HelloCI/issues"
+  },
+  "homepage": "https://github.com/djw213/HelloCI#readme"
+}
