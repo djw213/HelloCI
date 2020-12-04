@@ -8,3 +8,6 @@ deploy:
   - provider: heroku
   - api_key:
      - secure: "fb939fda-296a-42ed-9fb8-c57fcb2d9727"
+  - app: hello-ci-app
+  - on:
+      all_branches: true
