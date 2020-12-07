@@ -1,11 +1,13 @@
 language: node_js
 node_js:
-  - node
+- node
 install:
-  - npm install -g mocha
-  - npm install chai
+- npm install -g mocha
+- npm install chai
 deploy:
   provider: heroku
   app: hello-ci-app
   on:
     all_branches: true
+  api_key:
+    secure: JsmYnKGJZnrArNNHPxxVO1svMksT/3WZYfEW3kk+ONHWrh5UXmIASoABJmuusPmX0i1l9meLVB7jOPRhcErP6ciPY/zuMHGUyqOSIi23WQ6HfB1Po4JIO9PwmzLD2NQmkttbQ0Chr2JDmBD5abmEu84BiQ7VkIezkieK/nDW0fKNXp8Bq+XdEeE8mRheDTTgFK2GWFXNLtecil8gWdQXdbue7+R+K8OmolpwouEFWSE2Xi6gD+n69ftIsXskP2LEita4vhyarU0QorkH5bebkDE6f8GYRu4IaGMK5C20ogRItV8vGfApwgLVHHggUXFuYVBYG3PDcnEsj9OXhotFHamC3iVj4CV2EOPGbs6v4zwYwyYyNlSZ5fRoMvf/J2ptvP5MQCwLdjFkMUIJGNYDKxHlHm1I87g0VtxBMghRm1OuP6JbKLt/DyGE+9IWYgVtlX9dkLqBq7FYGTHKfuSXy4ikOICUlA4KCDi3vLK0h3Yy64kuIqchUMKzIERjF5tjpcWOE96z9DQLFTajw3WCrR5UslmahKxWprsNyYqvbsBlolMwtuwXDlcB8kK0XmgL+holhCOcI2xQAkzUqTTITV0cBoV3zD0W7jH0UKgkurqDi2/YyqRZG6xsLYUJ/LqWE2t7xSk6kpRVhrTIAkLI0wBIno10ng2iKuPHpbWcqC0=
